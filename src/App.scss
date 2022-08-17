@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: #fff;
+
+    .centering-container {
+        width: 283px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-block: 20px;
+
+        .logo-container {
+            .logo {
+                font-size: 3.5rem;
+            }
+        }
+
+        .logo-text-container {
+            .text {
+                font-weight: 600;
+                font-size: 1.7rem;
+            }
+        }
+    }
+}
+
+.dataElements-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width:1164px) {
+    .dataElements-container {
+        grid-template-columns: repeat(1, 1fr);
+        .card-section {
+            width: 1005px;
+            .text-container {
+                width: 650px;
+            }
+        }
+    }
+    
+}
+
+.card-section {
+    width: 1045px;
+    margin-block: 75px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .hero-container {
+        .hero {
+            width: 300px;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    }
+
+    .text-container {
+        width: 700px;
+
+        .upper-section {
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 10px;
+
+            .location-flex-container {
+                display: flex;
+                align-items: center;
+                font-size: 1.7rem;
+                margin-right: 20px;
+
+                .location-logo-container {
+                    margin-right: 7px;
+
+                    .location-logo {
+                        color: #F55A5A;
+                    }
+                }
+
+                .country-container {
+                    .country {
+                        font-weight: 500;
+                        letter-spacing: 2px;
+                    }
+                }
+            }
+
+            .google-maps-container {
+                .google-maps {
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                    color: gray;
+
+                    &:visited {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .lower-section {
+            .location-name-container {
+                .location-name {
+                    font-size: 3.9rem;
+                }
+            }
+
+            .duration-container {
+                margin-top: 30px;
+
+                .duration {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .journal-container {
+                margin-top: 15px;
+
+                .journal {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navSection {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #F55A5A;
+  color: #fff;
+}
+.navSection .centering-container {
+  width: 283px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 20px;
+}
+.navSection .centering-container .logo-container .logo {
+  font-size: 3.5rem;
+}
+.navSection .centering-container .logo-text-container .text {
+  font-weight: 600;
+  font-size: 1.7rem;
 }
 
-.App-link {
-  color: #61dafb;
+.dataElements-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1164px) {
+  .dataElements-container {
+    grid-template-columns: repeat(1, 1fr);
   }
-  to {
-    transform: rotate(360deg);
+  .dataElements-container .card-section {
+    width: 1005px;
+  }
+  .dataElements-container .card-section .text-container {
+    width: 650px;
   }
 }
+.card-section {
+  width: 1045px;
+  margin-block: 75px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-section .hero-container .hero {
+  width: 300px;
+  height: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+}
+.card-section .text-container {
+  width: 700px;
+}
+.card-section .text-container .upper-section {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.card-section .text-container .upper-section .location-flex-container {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  margin-right: 20px;
+}
+.card-section .text-container .upper-section .location-flex-container .location-logo-container {
+  margin-right: 7px;
+}
+.card-section .text-container .upper-section .location-flex-container .location-logo-container .location-logo {
+  color: #F55A5A;
+}
+.card-section .text-container .upper-section .location-flex-container .country-container .country {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.card-section .text-container .upper-section .google-maps-container .google-maps {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: gray;
+}
+.card-section .text-container .upper-section .google-maps-container .google-maps:visited {
+  text-decoration: none;
+}
+.card-section .text-container .lower-section .location-name-container .location-name {
+  font-size: 3.9rem;
+}
+.card-section .text-container .lower-section .duration-container {
+  margin-top: 30px;
+}
+.card-section .text-container .lower-section .duration-container .duration {
+  font-size: 1.5rem;
+}
+.card-section .text-container .lower-section .journal-container {
+  margin-top: 15px;
+}
+.card-section .text-container .lower-section .journal-container .journal {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=App.css.map */
