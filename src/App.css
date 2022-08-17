@@ -43,7 +43,7 @@
   }
 }
 .card-section {
-  width: 1045px;
+  width: 645px;
   margin-block: 75px;
   margin-left: 60px;
   display: flex;
@@ -51,25 +51,25 @@
   align-items: center;
 }
 .card-section .hero-container .hero {
-  width: 300px;
-  height: 420px;
+  width: 200px;
+  height: 320px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
 }
 .card-section .text-container {
-  width: 700px;
+  width: 400px;
 }
 .card-section .text-container .upper-section {
   display: flex;
   align-items: flex-end;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .card-section .text-container .upper-section .location-flex-container {
   display: flex;
   align-items: center;
-  font-size: 1.7rem;
-  margin-right: 20px;
+  font-size: 1.2rem;
+  margin-right: 10px;
 }
 .card-section .text-container .upper-section .location-flex-container .location-logo-container {
   margin-right: 7px;
@@ -82,7 +82,7 @@
   letter-spacing: 2px;
 }
 .card-section .text-container .upper-section .google-maps-container .google-maps {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: gray;
 }
@@ -90,17 +90,17 @@
   text-decoration: none;
 }
 .card-section .text-container .lower-section .location-name-container .location-name {
-  font-size: 3.9rem;
+  font-size: 2.8rem;
 }
 .card-section .text-container .lower-section .duration-container {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .card-section .text-container .lower-section .duration-container .duration {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .card-section .text-container .lower-section .journal-container {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .card-section .text-container .lower-section .journal-container .journal {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=App.css.map */

@@ -52,7 +52,7 @@
 }
 
 .card-section {
-    width: 1045px;
+    width: 645px;
     margin-block: 75px;
     margin-left: 60px;
     display: flex;
@@ -61,26 +61,26 @@
 
     .hero-container {
         .hero {
-            width: 300px;
-            height: 420px;
+            width: 200px;
+            height: 320px;
             object-fit: cover;
             border-radius: 15px;
         }
     }
 
     .text-container {
-        width: 700px;
+        width: 400px;
 
         .upper-section {
             display: flex;
             align-items: flex-end;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
 
             .location-flex-container {
                 display: flex;
                 align-items: center;
-                font-size: 1.7rem;
-                margin-right: 20px;
+                font-size: 1.2rem;
+                margin-right: 10px;
 
                 .location-logo-container {
                     margin-right: 7px;
@@ -100,7 +100,7 @@
 
             .google-maps-container {
                 .google-maps {
-                    font-size: 1.5rem;
+                    font-size: 1.1rem;
                     text-decoration: none;
                     color: gray;
 
@@ -114,23 +114,23 @@
         .lower-section {
             .location-name-container {
                 .location-name {
-                    font-size: 3.9rem;
+                    font-size: 2.8rem;
                 }
             }
 
             .duration-container {
-                margin-top: 30px;
+                margin-top: 20px;
 
                 .duration {
-                    font-size: 1.5rem;
+                    font-size: 1.3rem;
                 }
             }
 
             .journal-container {
-                margin-top: 15px;
+                margin-top: 10px;
 
                 .journal {
-                    font-size: 1.5rem;
+                    font-size: 1.3rem;
                 }
             }
         }
